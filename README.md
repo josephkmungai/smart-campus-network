@@ -1,2 +1,34 @@
-# smart-campus-network
-Design and Implementation of a Secure Multi-Institute Campus Network using Cisco Packet Tracer and Windows Server 2022.
+# Smart Campus Network
+
+## Overview
+
+This project demonstrates the design and implementation of a secure Multi-Institute Campus Network for:
+
+- Institute of Business Studies (IBS)
+- Craft Engineering Institute (CEI)
+- Textile Training Institute (TTI)
+
+## Technologies
+
+- Cisco Packet Tracer
+- Windows Server 2022
+- Active Directory
+- DNS
+- DHCP
+- IIS
+- VLANs
+- OSPF
+- ACLs
+- Network Security
+
+## Repository Structure
+
+- Documentation
+- PacketTracer
+- WindowsServer
+- Screenshots
+- Reports
+
+## Author
+
+Joseph Mungai
