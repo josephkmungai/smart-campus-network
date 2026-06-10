@@ -31,4 +31,4 @@ This project demonstrates the design and implementation of a secure Multi-Instit
 
 ## Author
 
-Joseph Mungai
+Joseph Kung'u Mungai
