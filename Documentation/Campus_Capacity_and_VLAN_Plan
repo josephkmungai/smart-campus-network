@@ -1,125 +1,210 @@
 # Campus Capacity and VLAN Plan
 
-## Institute of Business Studies (IBS)
+## Project Overview
 
-### Departments
+This project aims to design and implement a secure Multi-Institute Campus Area Network (CAN) for a Campus consisting of:
 
-- Administration
-- Accounting & Finance
-- Human Resource Management
-- Information Communication Technology (ICT)
-- Student Labs
+- Institute of Business Studies (IBS)
+- Craft Engineering Institute (CEI)
+- Textile Training Institute (TTI)
 
-### Capacity
+The network will support approximately 2,500 users and devices while providing centralized services through Windows Server 2022.
 
-Administration - 50 Devices
+---
 
-Accounting & Finance - 80 Devices
+# Institute of Business Studies (IBS)
 
-Human Resource Management - 70 Devices
+## Departments
 
-ICT - 100 Devices
+1. Administration
+2. Accounting & Finance
+3. Human Resource Management
+4. Information Communication Technology (ICT)
+5. Student Labs
 
-Student Labs - 700 Devices
+## Estimated Capacity
 
-Total Capacity: Approximately 1000 Devices
+| Department | Estimated Devices |
+|------------|------------------|
+| Administration | 50 |
+| Accounting & Finance | 80 |
+| Human Resource Management | 70 |
+| ICT | 100 |
+| Student Labs | 700 |
 
-### VLAN Allocation
+### Total Capacity
 
-VLAN 110 - Administration
+Approximately 1000 Devices
 
-VLAN 120 - Accounting & Finance
+## VLAN Allocation
 
-VLAN 130 - Human Resource Management
+| VLAN ID | Department |
+|----------|-----------|
+| 110 | Administration |
+| 120 | Accounting & Finance |
+| 130 | Human Resource Management |
+| 140 | ICT |
+| 150 | Student Labs |
 
-VLAN 140 - ICT
+---
 
-VLAN 150 - Student Labs
+# Craft Engineering Institute (CEI)
 
---------------------------------------------------
+## Departments
 
-## Craft Engineering Institute (CEI)
+1. Administration
+2. Mechanical Engineering
+3. Electrical Engineering
+4. Building & Construction
+5. Student Labs
 
-### Departments
+## Estimated Capacity
 
-- Administration
-- Mechanical Engineering
-- Electrical Engineering
-- Building & Construction
-- Student Labs
+| Department | Estimated Devices |
+|------------|------------------|
+| Administration | 40 |
+| Mechanical Engineering | 120 |
+| Electrical Engineering | 120 |
+| Building & Construction | 70 |
+| Student Labs | 450 |
 
-### Capacity
+### Total Capacity
 
-Administration - 40 Devices
+Approximately 800 Devices
 
-Mechanical Engineering - 120 Devices
+## VLAN Allocation
 
-Electrical Engineering - 120 Devices
+| VLAN ID | Department |
+|----------|-----------|
+| 210 | Administration |
+| 220 | Mechanical Engineering |
+| 230 | Electrical Engineering |
+| 240 | Building & Construction |
+| 250 | Student Labs |
 
-Building & Construction - 70 Devices
+---
 
-Student Labs - 450 Devices
+# Textile Training Institute (TTI)
 
-Total Capacity: Approximately 800 Devices
+## Departments
 
-### VLAN Allocation
+1. Administration
+2. Textile Production
+3. Garment Design & Fashion
+4. Quality Control & Inspection
+5. Student Labs
 
-VLAN 210 - Administration
+## Estimated Capacity
 
-VLAN 220 - Mechanical Engineering
+| Department | Estimated Devices |
+|------------|------------------|
+| Administration | 30 |
+| Textile Production | 120 |
+| Garment Design & Fashion | 100 |
+| Quality Control & Inspection | 50 |
+| Student Labs | 400 |
 
-VLAN 230 - Electrical Engineering
+### Total Capacity
 
-VLAN 240 - Building & Construction
+Approximately 700 Devices
 
-VLAN 250 - Student Labs
+## VLAN Allocation
 
---------------------------------------------------
+| VLAN ID | Department |
+|----------|-----------|
+| 310 | Administration |
+| 320 | Textile Production |
+| 330 | Garment Design & Fashion |
+| 340 | Quality Control & Inspection |
+| 350 | Student Labs |
 
-## Textile Training Institute (TTI)
+---
 
-### Departments
+# Shared Campus Services
 
-- Administration
-- Textile Production
-- Garment Design & Fashion
-- Quality Control & Inspection
-- Student Labs
+## Data Center and Campus Services
 
-### Capacity
+| VLAN ID | Service |
+|----------|---------|
+| 400 | Server VLAN |
+| 410 | ICT Operations |
+| 420 | Guest WiFi |
+| 499 | Network Management |
 
-Administration - 30 Devices
+---
 
-Textile Production - 120 Devices
+# Centralized Windows Server 2022 Infrastructure
 
-Garment Design & Fashion - 100 Devices
+The entire campus will utilize a centralized Windows Server 2022 infrastructure located in the campus Data Center.
 
-Quality Control & Inspection - 50 Devices
+The server will provide:
 
-Student Labs - 400 Devices
+- Active Directory Domain Services (AD DS)
+- Domain Name System (DNS)
+- Dynamic Host Configuration Protocol (DHCP)
+- File Services
+- Internet Information Services (IIS)
+- Group Policy Management
 
-Total Capacity: Approximately 700 Devices
+Proposed Domain Name:
 
-### VLAN Allocation
+smartcampus.com
 
-VLAN 310 - Administration
+---
 
-VLAN 320 - Textile Production
+# Security Objectives
 
-VLAN 330 - Garment Design & Fashion
+The network will implement:
 
-VLAN 340 - Quality Control & Inspection
+- VLAN Segmentation
+- Access Control Lists (ACLs)
+- Secure Device Management using SSH
+- Password Policies
+- Account Lockout Policies
+- Network Monitoring
+- Principle of Least Privilege
+- Defense in Depth
 
-VLAN 350 - Student Labs
+---
 
---------------------------------------------------
+# Expected Benefits
 
-## Shared Campus Services
+## Academic Benefits
 
-VLAN 400 - Servers
+- Improved access to learning resources
+- Reliable connectivity for students and staff
+- Centralized management of users and devices
 
-VLAN 410 - ICT Operations
+## Business Benefits
 
-VLAN 420 - Guest WiFi
+- Reduced operational costs
+- Easier network management
+- Improved scalability
+- Better resource utilization
 
-VLAN 499 - Network Management
+## Security Benefits
+
+- Reduced attack surface
+- Better access control
+- Improved monitoring and auditing
+- Protection of sensitive departmental data
+
+---
+
+# Technologies Used
+
+- Cisco Packet Tracer
+- Windows Server 2022
+- Oracle VM VirtualBox
+- GitHub
+- Parrot OS
+- Active Directory
+- DNS
+- DHCP
+- IIS
+- VLANs
+- OSPF
+- ACLs
+
+---
+
