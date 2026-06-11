@@ -1,0 +1,125 @@
+# Campus Capacity and VLAN Plan
+
+## Institute of Business Studies (IBS)
+
+### Departments
+
+- Administration
+- Accounting & Finance
+- Human Resource Management
+- Information Communication Technology (ICT)
+- Student Labs
+
+### Capacity
+
+Administration - 50 Devices
+
+Accounting & Finance - 80 Devices
+
+Human Resource Management - 70 Devices
+
+ICT - 100 Devices
+
+Student Labs - 700 Devices
+
+Total Capacity: Approximately 1000 Devices
+
+### VLAN Allocation
+
+VLAN 110 - Administration
+
+VLAN 120 - Accounting & Finance
+
+VLAN 130 - Human Resource Management
+
+VLAN 140 - ICT
+
+VLAN 150 - Student Labs
+
+--------------------------------------------------
+
+## Craft Engineering Institute (CEI)
+
+### Departments
+
+- Administration
+- Mechanical Engineering
+- Electrical Engineering
+- Building & Construction
+- Student Labs
+
+### Capacity
+
+Administration - 40 Devices
+
+Mechanical Engineering - 120 Devices
+
+Electrical Engineering - 120 Devices
+
+Building & Construction - 70 Devices
+
+Student Labs - 450 Devices
+
+Total Capacity: Approximately 800 Devices
+
+### VLAN Allocation
+
+VLAN 210 - Administration
+
+VLAN 220 - Mechanical Engineering
+
+VLAN 230 - Electrical Engineering
+
+VLAN 240 - Building & Construction
+
+VLAN 250 - Student Labs
+
+--------------------------------------------------
+
+## Textile Training Institute (TTI)
+
+### Departments
+
+- Administration
+- Textile Production
+- Garment Design & Fashion
+- Quality Control & Inspection
+- Student Labs
+
+### Capacity
+
+Administration - 30 Devices
+
+Textile Production - 120 Devices
+
+Garment Design & Fashion - 100 Devices
+
+Quality Control & Inspection - 50 Devices
+
+Student Labs - 400 Devices
+
+Total Capacity: Approximately 700 Devices
+
+### VLAN Allocation
+
+VLAN 310 - Administration
+
+VLAN 320 - Textile Production
+
+VLAN 330 - Garment Design & Fashion
+
+VLAN 340 - Quality Control & Inspection
+
+VLAN 350 - Student Labs
+
+--------------------------------------------------
+
+## Shared Campus Services
+
+VLAN 400 - Servers
+
+VLAN 410 - ICT Operations
+
+VLAN 420 - Guest WiFi
+
+VLAN 499 - Network Management
